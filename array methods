@@ -1,0 +1,132 @@
+// let array = [1, 2, 3, 4, 5, "ravi", "sastry", true, false, undefined, null, Symbol, BigInt[1, 2, 3, 4, 5], { name: "sumeet" }]
+// console.log(array);
+// console.log(typeof(array));
+// let name = ["sumeet", "neelmath", "charan", "gowda"]
+// console.log(name[2])
+// console.log(name[3]);
+// console.log(`hello this is my name ${name[0]}${name[1]}\n my frnd name is ${name[2]}${name[3]}`)
+// let movie = ["kgf", "kgf2", "katera", "durandhar", "hit3", "bhaubhali", "kantara", "pushpoa"]
+// let hero = ["yash", "dboos", "ranveersingh", "nani", "pharbhas", "rishab", "alluarjun"]
+// let heronie = ["shrindi", "Ananaya", "sara", "anuskha", "tamana", "ruku", "rashmika"]
+// let year = [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
+// console.log(` movie name :- ${movie[0]}, hero name is ${hero[0]} and heronie name is ${heronie[0]} year of release ${year[0]}`);
+// console.log(`movie name :- ${movie[2]}, hero name is ${hero[1]} and heronie name is ${heronie[1]} year of relese ${year[1]}`);
+// console.log(`movie name :- ${movie[4]}, hero name is ${hero[3]} and heroine name is ${heronie[2]} year of release ${year[2]}`);
+// console.log(`movie name :- ${movie[5]}, hero name is ${hero[4]} and heroine name is ${heronie[3]} year of release ${year[3]}`);
+// console.log(`movie name :- ${movie[6]}, hero name is ${hero[5]} and heroine name is ${heronie[5]} year of release ${year[4]}`);
+// console.log(`movie name :- ${movie[7]}, hero name is ${hero[6]} and heroine name is ${heronie[6]} year of release ${year[5]}`);
+
+
+// ,,,,,,,,,,,,,,,,,
+// let array = [1, 2, 3, 4, 5, "ravi", "sastry", true, false, undefined, null, Symbol, BigInt[1, 2, 3, 4, 5], { name: "sumeet" }]
+// console.log(array);
+// console.log(typeof(array));
+// let name = ["sumeet", "neelmath", "charan", "gowda"]
+// console.log(name[2])
+// console.log(name[3]);
+// console.log(`hello this is my name ${name[0]}${name[1]}\n my frnd name is ${name[2]}${name[3]}`)
+// let movie = ["kgf", "kgf2", "katera", "durandhar", "hit3", "bhaubhali", "kantara", "pushpoa"]
+// let hero = ["yash", "dboos", "ranveersingh", "nani", "pharbhas", "rishab", "alluarjun"]
+// let heronie = ["shrindi", "Ananaya", "sara", "anuskha", "tamana", "ruku", "rashmika"]
+// let year = [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
+// console.log(` movie name :- ${movie[0]}, hero name is ${hero[0]} and heronie name is ${heronie[0]} year of release ${year[0]}`);
+// console.log(`movie name :- ${movie[2]}, hero name is ${hero[1]} and heronie name is ${heronie[1]} year of relese ${year[1]}`);
+// console.log(`movie name :- ${movie[4]}, hero name is ${hero[3]} and heroine name is ${heronie[2]} year of release ${year[2]}`);
+// console.log(`movie name :- ${movie[5]}, hero name is ${hero[4]} and heroine name is ${heronie[3]} year of release ${year[3]}`);
+// console.log(`movie name :- ${movie[6]}, hero name is ${hero[5]} and heroine name is ${heronie[5]} year of release ${year[4]}`);
+// console.log(`movie name :- ${movie[7]}, hero name is ${hero[6]} and heroine name is ${heronie[6]} year of release ${year[5]}`);
+
+
+// // ,,,,,,,,,,array methods,,,,,,,,26 feb,,,
+// let array = ["charan", "gowda", "sumeet", "neelmath"]
+// let no = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+// console.log(array.concat(no))
+// console.log(array)
+// console.log(no)
+// ,,,,
+// let no1 = [
+//     [
+//         [
+//             [
+//                 [
+//                     [
+//                         [
+//                             [
+//                                 [
+//                                     [
+//                                         [1], 2
+//                                     ], 3
+//                                 ], 4
+//                             ], 5
+//                         ], 6
+//                     ], 7
+//                 ], 8
+//             ], 9
+//         ], 10
+//     ]
+// ]
+
+// console.log(no1.flat(Infinity))
+
+
+// , , , , , , , ,
+// let array = ["charan", "gowda", "sumeet", "neelmath"]
+// console.log(array.includes("gowda"))
+// console.log(array.indexOf("sumeet"))//shows -1 if not there in array
+// let x = "hello my name is charan"
+// let y = (x.split(""))
+// console.log(y)
+// console.log(y.join(" "))
+// console.log(y.join())
+// console.log(x.split(""))
+
+// console.log(x.split(" "))
+// // console.log(x.split(","))
+// let array = ["charan", "gowda", "sumeet", "neelmath", "gowda"]
+//     // console.log(array.lastIndexOf("gowda"))
+// console.log(array.pop())
+// console.log(array)
+// console.log(array.pop())
+// console.log(array)
+// console.log(array.pop())
+// console.log(array)
+// console.log(array.pop())
+// console.log(array)
+// console.log(array.pop())
+// console.log(array)
+// console.log(array.pop())
+// console.log(array)
+//     // ,,,,,push,,,, adding/
+// console.log(array.push("sunny"))
+// console.log(array)
+// console.log(array.push("jonny"))
+// console.log(array)
+
+// ,,,,,,,
+// let array = ["charan", "gowda", "sumeet", "neelmath", "gowda"]
+// console.log(array.reverse())
+
+// ,,,,,,
+// let array = ["charan", "gowda", "sumeet", "neelmath", "gowda"]
+// console.log(array.shift())
+// console.log(array)
+// console.log(array.shift())
+// console.log(array)
+// console.log(array.shift())
+// console.log(array)
+// console.log(array.shift())
+// console.log(array)
+// console.log(array.shift())
+// console.log(array)
+// console.log(array.shift())
+// console.log(array)
+// console.log(array.unshift("vishnu "))//used to add new elment at starting
+// console.log(array)
+let array = ["charan", "gowda", "sumeet", "neelmath", "gowda", "vishnu", "harish", "ruthvik"]
+    // let x = (array.slice(0, 4).reverse())
+    // let x1 = (array.slice(4).reverse())
+
+// console.log(x.concat(x1))
+
+console.log(array.splice(4, 1))
+console.log(array)
